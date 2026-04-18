@@ -174,7 +174,7 @@ The SHAP result we find most interesting is that the absence of certain lab orde
 
 **Limitations:** The LSTM we used is a standard architecture not specifically designed for irregular time series. Models like GRU-D, which learn feature-specific decay rates for missing values, may perform better. The lag feature engineering for XGBoost was limited to vital signs; extending it to lab values could further improve performance. Validation on more than two hospital systems would be needed before drawing broader conclusions.
 
-**Future directions:**
+**Future Work/directions:**
 - Test GRU-D and other architectures designed for irregular clinical time series
 - Extend lag features to lab values for XGBoost
 - Validate across additional hospital systems
